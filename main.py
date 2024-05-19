@@ -6,9 +6,10 @@ header = {
     "Accept-Language": "en-US,en;q=0.9,ar;q=0.8"
 }
 
-telegram_api = "https://api.telegram.org/bot6547512859:AAH-OHxQmXS_o_Ivslu8s6KkDaxMJlI_jsk/sendMessage"
+telegram_api = "https://api.telegram.org/TELEGRAM_API/sendMessage"
 
-url = "https://eshop-prices.com/games/1063-dead-cells?currency=TRY"
+url = "URL FOR GAME IN ESHOP PRİCES WEBSITE"
+
 html_content = requests.get(url, headers=header)
 
 soup = BeautifulSoup(html_content.content, 'html.parser')
