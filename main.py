@@ -8,7 +8,7 @@ header = {
 
 telegram_api = "https://api.telegram.org/TELEGRAM_API/sendMessage"
 
-url = "URL FOR GAME IN ESHOP PRİCES WEBSITE"
+url = "URL FOR GAME IN ESHOP PRICES WEBSITE"
 
 html_content = requests.get(url, headers=header)
 
